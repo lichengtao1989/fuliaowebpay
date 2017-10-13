@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>充值</title>
+    <script>
+        ! function(e, t) {
+            function n() {
+                t.body ? t.body.style.fontSize = 12 * o + "px" : t.addEventListener("DOMContentLoaded", n)
+            }
+
+            function d() {
+                var e = i.clientWidth / 10;
+                i.style.fontSize = e + "px"
+            }
+            var i = t.documentElement,
+                o = e.devicePixelRatio || 1;
+            if (n(), d(), e.addEventListener("resize", d), e.addEventListener("pageshow", function(e) {
+                    e.persisted && d()
+                }), o >= 2) {
+                var a = t.createElement("body"),
+                    s = t.createElement("div");
+                s.style.border = ".5px solid transparent", a.appendChild(s), i.appendChild(a), 1 === s.offsetHeight && i.classList.add("hairlines"), i.removeChild(a)
+            }
+        }(window, document);
+    </script>
+    <link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #f5f5f5;">
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>

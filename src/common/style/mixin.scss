@@ -1,0 +1,100 @@
+
+@mixin fo($size) {
+    font-size: $size;
+}
+@mixin bs {
+       box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+@mixin wh($wi, $he) {
+    width: $wi;
+    height: $he;
+}
+
+@mixin ba($color) {
+    background: $color
+}
+
+@mixin float($left:left) {
+    float: $left
+}
+
+@mixin te($align:center) {
+    text-align: $align
+}
+
+@mixin co($color) {
+    color: $color
+}
+
+@mixin wi($width) {
+    width: $width
+}
+
+@mixin he($height) {
+    height: $height
+}
+
+@mixin li($lineheight) {
+    line-height: $lineheight;
+    height: $lineheight
+}
+
+@mixin po($position:absolute) {
+    position: $position;
+}
+
+@mixin pr($position:relative) {
+    position: $position;
+}
+
+@mixin mag() {
+    margin: 0 auto;
+}
+
+@mixin ov() {
+    overflow: hidden;
+}
+
+@mixin cur() {
+    cursor: pointer;
+}
+
+@mixin inline() {
+    display: inline-block;
+}
+
+@mixin inline-block() {
+    display: inline-block;
+}
+@mixin ik() {
+    display: inline-block;
+}
+
+@mixin block() {
+    display: block;
+}
+
+@mixin none() {
+    display: none;
+}
+
+@mixin baimg($src) {
+    background: url($src);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+@mixin bs {
+ box-sizing:border-box;
+ -webkit-box-sizing:border-box;
+}
+@mixin p_center() {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
